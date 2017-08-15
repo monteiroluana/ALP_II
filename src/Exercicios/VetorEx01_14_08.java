@@ -2,6 +2,7 @@
 Criar uma função que receba como parâmetro um vetor de inteiros e troque os valores pares do vetor por
 0 e os valores ímpares por 1. A função principal deve ler um vetor de 10 posições de inteiros, chamar a
 função criada e apresentar o vetor alterado na tela
+
  */
 package Exercicios;
 //@Monteiro
