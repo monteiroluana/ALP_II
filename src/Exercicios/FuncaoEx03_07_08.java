@@ -4,6 +4,7 @@ Porexemplo, 12 = 1, 22 = 1+3, 32 = 1+3+5, 42 = 1+3+5+7, etc. Criarumafunçãoque
 parâmetro um número inteiro positivo maior que zero, calcule e retorne o seu quadrado usando a 
 soma de ímpares ao invés do produto. A função principal deve ler um número inteiro, chamar a função 
 criada e apresentar na tela o valor retornado pela função.
+
  */
 package Exercicios;
 

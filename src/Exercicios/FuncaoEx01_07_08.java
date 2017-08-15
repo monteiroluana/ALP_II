@@ -2,6 +2,7 @@
  * Criar uma função que receba como parâmetro um número inteiro e retorne true se o número for par e
  * false se o número for ímpar. A função principal deve ler um número inteiro, chamar a função criada e
  * apresentar uma mensagem indicando se o número é par ou ímpar.
+ * 
  */
 package Exercicios;
 //@Monteiro
