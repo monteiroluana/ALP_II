@@ -26,7 +26,7 @@ public class VetorEx01_14_08 {
         mudarVetor(vetor);
 
         /*Mostrando o vetor com os valores alterados*/
-        System.out.println("Mostrando o VETOR");
+        System.out.println("MOSTRANDO O VETOR");
         for (int i = 0; i < vetor.length; i++) {
             System.out.println("vetor["+i+"]: "+vetor[i]);
         }
