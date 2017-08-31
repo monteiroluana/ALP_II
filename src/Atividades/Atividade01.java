@@ -43,12 +43,12 @@ public class Atividade01 {
                 default:
                     System.out.println("Opção inválida!");
             }
-            //Se a opção for '0' a aplicação será finalizar 
+            //Se a opcao for '0' a aplicacao será finalizar 
         } while (opcaoMenu != 0);
     }
 
     static int verMenu() {
-        //Essa funcao mostra as opcoes da aplicacao e retorna a opção escolhida pelo usuário
+        //Essa funcao mostra as opcoes da aplicacao e retorna a opcao escolhida pelo usuario
         System.out.println("\n|-----------MENU------------|");
         System.out.println(" 1 - Adicionar nome        ");
         System.out.println(" 2 - Apresentar os nomes   ");
@@ -86,7 +86,7 @@ public class Atividade01 {
                 break;
             }
         }
-        //Se a lista não tiver mais espaço, mostrar a mensagem Lista cheia e não deixar o usuário continuar
+        //Se a lista não tiver mais espaco, mostrar a mensagem Lista cheia e não deixar o usuário continuar
         if (nVazio == 0) {
             System.out.println("** Lista CHEIA **");
 
@@ -120,13 +120,13 @@ public class Atividade01 {
         boolean achou = false;
         for (int i = 0; i < lista.length; i++) {
 
-            //Se o nome estiver na lista, 'achou' vai receber true e depois irá apresentar o nome com a posição na lista
+            //Se o nome estiver na lista, 'achou' vai receber true, e depois irá apresentar o nome com a posicao na lista
             if (nome.equals(lista[i])) {
                 achou = true;
                 System.out.println("(nº)         (nome)\n[" + i + "]- - - - - " + lista[i]);
             }
         }
-        //Se 'achou' for false apresentar uma mensagem 
+        //Se 'achou' for false, apresentar uma mensagem 
         if (!achou) {
             System.out.println("** Nome não encontrado na lista **");
         }
@@ -141,7 +141,7 @@ public class Atividade01 {
 
         int posicao = -1;
 
-        //Esse vetor está removendo o nome, alterando o valor para null e pegando o indice em que ocorreu a exclusão
+        //Esse vetor está removendo o nome, alterando o valor para null e pegando o indice em que ocorreu a exclusao
         for (int i = 0; i < lista.length; i++) {
             if (nome.equals(lista[i])) {
                 lista[i] = null;
