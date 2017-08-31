@@ -1,10 +1,11 @@
 /*
+@Luana Monteiro Pereira
+
+
 ATIVIDADE 01
 2º semestre Análise e Desenvolvimento de Sistemas
     profº Alexandre Mignon
     31/08/17
-
-by @Luana Monteiro
  */
 package Atividades;
 
@@ -50,11 +51,11 @@ public class Atividade01 {
     static int verMenu() {
         //Essa funcao mostra as opcoes da aplicacao e retorna a opcao escolhida pelo usuario
         System.out.println("\n|-----------MENU------------|");
-        System.out.println(" 1 - Adicionar nome        ");
-        System.out.println(" 2 - Apresentar os nomes   ");
-        System.out.println(" 3 - Pesquisar nome        ");
-        System.out.println(" 4 - Deletar nome          ");
-        System.out.println(" 0 - Sair                  ");
+        System.out.println(" 1 - Adicionar um novo nome");
+        System.out.println(" 2 - Apresentar os nomes");
+        System.out.println(" 3 - Pesquisar um nome");
+        System.out.println(" 4 - Deletar um nome");
+        System.out.println(" 0 - Sair");
         System.out.print("OPÇÃO: ");
         int opcao = console.nextInt();
 
