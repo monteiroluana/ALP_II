@@ -97,7 +97,7 @@ public class Atividade01 {
     static void verLista(String[] lista) {
         System.out.println("\n    ~~  APRESENTANDO OS NOMES  ~~");
         System.out.println("(nº)         (nome)");
-        
+
         for (int i = 0; i < lista.length; i++) {
             //Se a lista na posicao '0' for 'null', apresentar uma mensagem e sair do 'for' 
             if (lista[0] == null) {
@@ -147,7 +147,7 @@ public class Atividade01 {
             if (nome.equals(lista[i])) {
                 lista[i] = null;
                 posicao = i;
-                System.out.println("** Nome["+nome.toUpperCase()+"] foi REMOVIDO com sucesso **");
+                System.out.println("** Nome[" + nome.toUpperCase() + "] foi REMOVIDO com sucesso **");
             }
         }
 
@@ -179,8 +179,9 @@ public class Atividade01 {
 
         }
     }
+}
 
-    /*
+/*
 Criar um programa para o gerenciamento de uma lista de nomes. Os nomes devem ser armazenados em um
 vetor do tipo String de tamanho 50. O programa deve possuir o seguinte menu:
 1 - Adicionar um novo nome
@@ -214,5 +215,4 @@ encontrado, apresentar também a posição do nome no vetor.
 – A posição que contém o nome a ser removido deve ser preenchida com o próximo nome e assim
 sucessivamente. Não podem haver posições vazias no meio do vetor
 
-     */
-}
+ */
